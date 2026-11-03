@@ -179,7 +179,7 @@ a:focus-visible .name-accent {
   z-index: -1;
   inset: 0;
   background:
-    radial-gradient(circle at 82% 28%, color-mix(in srgb, var(--accent) 7%, transparent), transparent 31rem),
+    radial-gradient(circle at 82% 28%, color-mix(in srgb, #8d5cc4 20%, transparent), transparent 31rem),
     linear-gradient(115deg, color-mix(in srgb, var(--surface-elevated) 55%, transparent), transparent 55%);
   content: "";
 }
