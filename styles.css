@@ -128,8 +128,13 @@ ul {
   color: var(--heading);
 }
 
-.name-accent {
+.name-accent,
+.prompt {
   color: var(--accent);
+}
+
+.prompt {
+  margin-right: 0.12em;
 }
 
 .wordmark {
