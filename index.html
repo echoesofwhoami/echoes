@@ -3,160 +3,254 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CurlSwiggerLabs</title>
+    <title>echoesofwhoami</title>
     <meta
       name="description"
-      content="PortSwigger Web Security Academy labs solved with curl."
+      content="echoesofwhoami. Web security: WebPentester, CurlSwiggerLabs, EchoingVdps, Taskflow, and CVE-2026-71184."
     />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://curlswiggerlabs.echoesofwhoami.com/" />
-    <meta http-equiv="refresh" content="5;url=https://curlswiggerlabs.echoesofwhoami.com/" />
-
-    <link rel="icon" type="image/png" href="https://curlswiggerlabs.echoesofwhoami.com/favicon.ico" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="https://echoesofwhoami.com/" />
+    <link rel="icon" href="/logo.png" type="image/png" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://curlswiggerlabs.echoesofwhoami.com/" />
-    <meta property="og:title" content="CurlSwiggerLabs" />
+    <meta property="og:url" content="https://echoesofwhoami.com/" />
+    <meta property="og:title" content="echoesofwhoami" />
     <meta
       property="og:description"
-      content="PortSwigger Web Security Academy labs solved with curl."
+      content="echoesofwhoami. Web security: WebPentester, CurlSwiggerLabs, EchoingVdps, Taskflow, and CVE-2026-71184."
     />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="CurlSwiggerLabs" />
-    <meta property="og:image" content="https://curlswiggerlabs.echoesofwhoami.com/og-default.png" />
-    <meta property="og:image:secure_url" content="https://curlswiggerlabs.echoesofwhoami.com/og-default.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
-    <meta property="og:image:alt" content="CurlSwiggerLabs" />
+    <meta property="og:site_name" content="echoesofwhoami" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CurlSwiggerLabs" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="echoesofwhoami" />
     <meta
       name="twitter:description"
-      content="PortSwigger Web Security Academy labs solved with curl."
+      content="echoesofwhoami. Web security: WebPentester, CurlSwiggerLabs, EchoingVdps, Taskflow, and CVE-2026-71184."
     />
-    <meta name="twitter:image" content="https://curlswiggerlabs.echoesofwhoami.com/og-default.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
 
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "CurlSwiggerLabs",
-        "url": "https://curlswiggerlabs.echoesofwhoami.com/",
-        "description": "PortSwigger Web Security Academy labs solved with curl."
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "https://echoesofwhoami.com/#page",
+            "url": "https://echoesofwhoami.com/",
+            "name": "echoesofwhoami",
+            "description": "echoesofwhoami. Web security: WebPentester, CurlSwiggerLabs, EchoingVdps, Taskflow, and CVE-2026-71184.",
+            "mainEntity": {
+              "@id": "https://echoesofwhoami.com/#person"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://echoesofwhoami.com/#person",
+            "name": "echoesofwhoami",
+            "alternateName": "echoes_of_whoami",
+            "url": "https://echoesofwhoami.com/",
+            "description": "Web security. Labs, writeups, and disclosures.",
+            "sameAs": [
+              "https://github.com/echoesofwhoami",
+              "https://www.linkedin.com/in/amos-v"
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://echoesofwhoami.com/#work",
+            "name": "Work",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "WebSite",
+                  "name": "WebPentester",
+                  "url": "https://webpentester.com",
+                  "discussionUrl": "https://discord.gg/reYpPRST5"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "WebSite",
+                  "name": "CurlSwiggerLabs",
+                  "url": "https://curlswiggerlabs.echoesofwhoami.com"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "WebSite",
+                  "name": "EchoingVdps",
+                  "url": "https://echoingvdps.echoesofwhoami.com"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Taskflow",
+                  "url": "https://www.hacksmarter.org/courses/e29f58a3-73bf-4290-a12c-e6c801a3042f"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "CVE-2026-71184",
+                  "url": "https://github.com/go-gitea/gitea/security/advisories/GHSA-7w2r-xwp6-mh6c"
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
-
-    <style>
-      :root {
-        --page-bg: #0b0d13;
-        --surface: #0a0f1b;
-        --border: #334155;
-        --text: #e2e8f0;
-        --text-muted: #94a3b8;
-        --heading: #f8fafc;
-        --accent: #dc2626;
-        --accent-hover: #ef4444;
-        --radius: 6px;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html,
-      body {
-        margin: 0;
-        min-height: 100%;
-      }
-
-      body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem 1.25rem;
-        background: var(--page-bg);
-        color: var(--text);
-        font-family: Quicksand, "Segoe UI", sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.6;
-      }
-
-      main {
-        width: min(40rem, 100%);
-        padding: 2rem 1.75rem;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        background: var(--surface);
-      }
-
-      h1 {
-        margin: 0 0 0.75rem;
-        color: var(--heading);
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 1.2;
-      }
-
-      p {
-        margin: 0 0 1rem;
-        color: var(--text-muted);
-      }
-
-      p:last-of-type {
-        margin-bottom: 1.5rem;
-      }
-
-      a {
-        color: var(--accent);
-        font-weight: 600;
-        text-decoration: none;
-      }
-
-      a:hover,
-      a:focus-visible {
-        color: var(--accent-hover);
-        text-decoration: underline;
-      }
-
-      .cta {
-        display: inline-block;
-        padding: 0.65rem 1rem;
-        border-radius: var(--radius);
-        background: var(--accent);
-        color: #fff;
-      }
-
-      .cta:hover,
-      .cta:focus-visible {
-        background: var(--accent-hover);
-        color: #fff;
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
+    <svg class="sprite" aria-hidden="true">
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+      </symbol>
+      <symbol id="icon-discord" viewBox="0 0 24 24">
+        <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z" />
+      </symbol>
+      <symbol id="icon-gitea" viewBox="0 0 24 24">
+        <path d="M4.209 4.603c-.247 0-.525.02-.84.088-.333.07-1.28.283-2.054 1.027C-.403 7.25.035 9.685.089 10.052c.065.446.263 1.687 1.21 2.768 1.749 2.141 5.513 2.092 5.513 2.092s.462 1.103 1.168 2.119c.955 1.263 1.936 2.248 2.89 2.367 2.406 0 7.212-.004 7.212-.004s.458.004 1.08-.394c.535-.324 1.013-.893 1.013-.893s.492-.527 1.18-1.73c.21-.37.385-.729.538-1.068 0 0 2.107-4.471 2.107-8.823-.042-1.318-.367-1.55-.443-1.627-.156-.156-.366-.153-.366-.153s-4.475.252-6.792.306c-.508.011-1.012.023-1.512.027v4.474l-.634-.301c0-1.39-.004-4.17-.004-4.17-1.107.016-3.405-.084-3.405-.084s-5.399-.27-5.987-.324c-.187-.011-.401-.032-.648-.032zm.354 1.832h.111s.271 2.269.6 3.597C5.549 11.147 6.22 13 6.22 13s-.996-.119-1.641-.348c-.99-.324-1.409-.714-1.409-.714s-.73-.511-1.096-1.52C1.444 8.73 2.021 7.7 2.021 7.7s.32-.859 1.47-1.145c.395-.106.863-.12 1.072-.12zm8.33 2.554c.26.003.509.127.509.127l.868.422-.529 1.075a.686.686 0 0 0-.614.359.685.685 0 0 0 .072.756l-.939 1.924a.69.69 0 0 0-.66.527.687.687 0 0 0 .347.763.686.686 0 0 0 .867-.206.688.688 0 0 0-.069-.882l.916-1.874a.667.667 0 0 0 .237-.02.657.657 0 0 0 .271-.137 8.826 8.826 0 0 1 1.016.512.761.761 0 0 1 .286.282c.073.21-.073.569-.073.569-.087.29-.702 1.55-.702 1.55a.692.692 0 0 0-.676.477.681.681 0 1 0 1.157-.252c.073-.141.141-.282.214-.431.19-.397.515-1.16.515-1.16.035-.066.218-.394.103-.814-.095-.435-.48-.638-.48-.638-.467-.301-1.116-.58-1.116-.58s0-.156-.042-.27a.688.688 0 0 0-.148-.241l.516-1.062 2.89 1.401s.48.218.583.619c.073.282-.019.534-.069.657-.24.587-2.1 4.317-2.1 4.317s-.232.554-.748.588a1.065 1.065 0 0 1-.393-.045l-.202-.08-4.31-2.1s-.417-.218-.49-.596c-.083-.31.104-.691.104-.691l2.073-4.272s.183-.37.466-.497a.855.855 0 0 1 .35-.077z" />
+      </symbol>
+    </svg>
+    <header class="navbar">
+      <nav class="nav-container" aria-label="Primary">
+        <a class="brand-link" href="/">
+          <img class="brand-icon" src="/logo.png" alt="" width="24" height="24" />
+          <span class="wordmark">echoes<span class="name-accent">ofwhoami</span></span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-      <h1>CurlSwiggerLabs</h1>
-      <p>PortSwigger Web Security Academy labs solved with curl.</p>
-      <p>
-        You are being redirected to CurlSwiggerLabs. If that does not happen,
-        <a href="https://curlswiggerlabs.echoesofwhoami.com/">click this link</a>.
-      </p>
-      <p>
-        <a class="cta" href="https://curlswiggerlabs.echoesofwhoami.com/">Continue to CurlSwiggerLabs</a>
-      </p>
+      <section class="hero" aria-labelledby="home-title">
+        <div class="shell">
+          <h1 id="home-title">echoes<span class="name-accent">ofwhoami</span></h1>
+          <p>Web security. Labs, writeups, and disclosures.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://discord.gg/reYpPRST5" rel="noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#icon-discord"></use></svg>
+              Discord
+            </a>
+            <a class="button" href="https://github.com/echoesofwhoami" rel="noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="shell">
+          <h2 id="work-title">Work</h2>
+          <div class="work-list">
+            <article>
+              <h3>
+                <a href="https://webpentester.com" rel="noreferrer">
+                  <img class="mark" src="/logo.png" alt="" width="22" height="22" />
+                  WebPentester
+                </a>
+              </h3>
+              <p>
+                For web pentesting, obviously.
+              </p>
+            </article>
+            <article>
+              <h3>
+                <a href="https://curlswiggerlabs.echoesofwhoami.com" rel="noreferrer">
+                  <img class="mark" src="/logo.png" alt="" width="22" height="22" />
+                  CurlSwiggerLabs
+                </a>
+              </h3>
+              <p>PortSwigger Web Security Academy labs solved with curl.</p>
+            </article>
+            <article>
+              <h3>
+                <a href="https://echoingvdps.echoesofwhoami.com" rel="noreferrer">
+                  <img class="mark" src="/logo.png" alt="" width="22" height="22" />
+                  EchoingVdps
+                </a>
+              </h3>
+              <p>Vulnerability disclosure writeups.</p>
+            </article>
+            <article>
+              <h3>
+                <a href="https://www.hacksmarter.org/courses/e29f58a3-73bf-4290-a12c-e6c801a3042f" rel="noreferrer">
+                  <span class="icon-mask" aria-hidden="true"></span>
+                  Taskflow
+                </a>
+              </h3>
+              <p>Challenge lab on Hack Smarter. Medium.</p>
+            </article>
+            <article>
+              <h3>
+                <a href="https://github.com/go-gitea/gitea/security/advisories/GHSA-7w2r-xwp6-mh6c" rel="noreferrer">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-gitea"></use></svg>
+                  CVE-2026-71184
+                </a>
+              </h3>
+              <p>Gitea security advisory GHSA-7w2r-xwp6-mh6c.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="connect" id="connect" aria-labelledby="connect-title">
+        <div class="shell">
+          <h2 id="connect-title">Connect</h2>
+          <p class="handle">
+            <a href="https://discord.gg/reYpPRST5" rel="noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#icon-discord"></use></svg>
+              Discord <span>@echoes_of_whoami</span>
+            </a>
+          </p>
+          <ul class="connect-links">
+            <li>
+              <a href="https://github.com/echoesofwhoami" rel="noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/amos-v" rel="noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <script>
-      setTimeout(function () {
-        location.replace("https://curlswiggerlabs.echoesofwhoami.com/");
-      }, 5000);
-    </script>
+
+    <footer class="site-footer">
+      <div class="shell footer-bottom">
+        <span class="wordmark">echoes<span class="name-accent">ofwhoami</span></span>
+        <span>Web security. Labs, writeups, and disclosures.</span>
+      </div>
+    </footer>
   </body>
 </html>
